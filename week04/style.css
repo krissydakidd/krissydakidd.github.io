@@ -1,0 +1,166 @@
+/* || General setup */ 
+2
+
+3 html, body {
+4   margin: 30px;
+5   padding: 50px;
+6 }
+7
+
+8 html {
+9   font-size: 10px;
+10   background-color: #a9a9a9;
+11 }
+12
+
+13 body {
+14   width: 70%;
+15   min-width: 800px;
+16   margin: 0 auto;
+17 }
+18
+
+19 /* || typography */
+20
+
+21 h1, h2, h3 {
+22   font-family: 'Cinzel Decorative', cursive;
+23   color: #2a2a2a;
+24 }
+25
+
+26 p, input, li {
+27   font-family: 'Roboto Condensed', sans-serif;
+28   color: #2a2a2a;
+29 }
+30
+
+31 h1 {
+32   font-size: 4rem;
+33   text-align: center;
+34   text-shadow: 2px 2px 10px black;
+35 }
+36
+
+37 h2 {
+38   font-size: 3rem;
+39   text-align: center;
+40 }
+41
+
+42 h3 {
+43   font-size: 2.2rem;
+44 }
+45
+
+46 p, li {
+47   font-size: 1.6rem;
+48   line-height: 1.5;
+49 }
+50
+
+51 /* || header layout */
+52
+
+53 header {
+54   margin-bottom: 10px;
+55   display: flex;
+56   flex-flow: row wrap;
+57 }
+58
+
+59 body > * {
+60   background-color: red;
+61   padding: 1%;
+62 }
+63
+
+64 main, header, nav, article, aside, footer, section {
+65   background-color: rgba(0,255,0,0.5);
+66   padding: 1%;
+67 }
+68
+
+69 h1 {
+70   flex: 5;
+71   text-transform: uppercase;
+72 }
+73
+
+74 header img {
+75   display: block;
+76   height: 60px;
+77   padding-top: 20.15px;
+78 }
+79
+
+80 nav {
+81   height: 50px;
+82   flex: 100%;
+83   display: flex;
+84 }
+85
+
+86 nav ul {
+87   padding: 0;
+88   list-style-type: none;
+89   flex: 2;
+90   display: flex;
+91 }
+92
+
+93 nav li {
+94   display: inline;
+95   text-align: center;
+96   flex: 1;
+97 }
+98
+
+99 nav a, nav span {
+100   display: inline-block;
+101   font-size: 2rem;
+102   height: 3rem;
+103   line-height: 1.7;
+104   text-transform: uppercase;
+105   text-decoration: none;
+106   color: black;
+107
+
+108 }
+109
+
+110 /* || main layout */
+111
+
+112 main {
+113   display: flex;
+114 }
+115
+
+116 article, section {
+117   flex: 4;
+118 }
+119
+
+120 aside {
+121   flex: 1;
+122   margin-left: 10px;
+123   padding: 1%;
+124 }
+125
+
+126 aside a {
+127   display: block;
+128   float: left;
+129   width: 50%;
+130 }
+131
+
+132 aside img {
+133   max-width: 100%;
+134 }
+135
+
+136 footer {
+137   margin-top: 10px;
+138 }
